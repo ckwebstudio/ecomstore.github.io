@@ -1,0 +1,246 @@
+    /* Utils css */
+    
+     :root {
+        --col-primary: blue;
+        --col-secondary: grey;
+        --col-success: green;
+        --col-theme: #da15d4;
+        --col-white: white;
+        --col-black: rgb(20, 20, 20);
+        --col-greyshade: #bdbec3;
+        /* font size */
+        --primary-fs: 18px;
+    }
+    
+    * {
+        margin: 0px;
+        padding: 0px;
+        /* background-color: rgb(53, 53, 53); */
+    }
+    /* container */
+    
+    .color-primary {
+        color: var(--col-primary);
+    }
+    
+    .color-secondary {
+        color: var(--col-secondary);
+    }
+    
+    .color-success {
+        color: var(--col-success);
+    }
+    
+    .color-theme {
+        color: var(--col-theme);
+    }
+    
+    .color-white {
+        color: var(--col-white);
+    }
+    
+    .color-black {
+        color: var(--col-black);
+    }
+    
+    .color-greyshade {
+        color: var(--col-greyshade);
+    }
+    
+    .background {
+        background-color: var(--col-theme);
+    }
+    
+    .background-dark {
+        background-color: var(--col-black);
+    }
+    
+    .background-grey {
+        --col-secondary: #dedede;
+        background-color: var(--col-secondary);
+    }
+    /* font */
+    
+    .primary-font-size {
+        font-size: var(--primary-fs);
+    }
+    /* container */
+    
+    .container-fluid {
+        /* background-color: black; */
+        width: 100%;
+    }
+    
+    .container {
+        /* background-color: rgb(0, 0, 0); */
+        width: 80%;
+    }
+    
+    .container-md {
+        /* background-color: rgb(0, 0, 0); */
+        width: 60%;
+    }
+    
+    .container-90 {
+        /* background-color: rgb(0, 0, 0); */
+        width: 90%;
+    }
+    /* margin */
+    
+    .m-auto {
+        margin: auto;
+    }
+    
+    .mt-30 {
+        margin-top: 30px;
+    }
+    
+    .mb-30 {
+        margin-bottom: 30px;
+    }
+    
+    .my-2 {
+        margin: 15px;
+    }
+    
+    .my-30 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .my-15 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .py-15 {
+        padding: 15px;
+    }
+    
+    .py-40 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .mr-5 {
+        margin-right: 5px;
+    }
+    
+    .mt-10 {
+        margin-top: 10px;
+    }
+    
+    .mb-10 {
+        margin-bottom: 10px;
+    }
+    /* flex */
+    
+    .d-flex {
+        display: flex;
+    }
+    
+    .d-flex-align-items-end {
+        display: flex;
+        justify-content: flex-end;
+    }
+    /* grids */
+    
+    .grid-container-2 {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        grid-gap: 20px;
+    }
+    
+    .grid-container-3 {
+        display: grid;
+        grid-template-columns: 4fr 4fr 4fr;
+        grid-gap: 10px;
+    }
+    
+    .grid-container-4 {
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr 3fr;
+        grid-gap: 10px;
+    }
+    
+    .grid-container-s-b {
+        display: grid;
+        grid-template-columns: 9fr 3fr;
+        grid-gap: 10px;
+    }
+    /* text align */
+    
+    .t-center {
+        text-align: center;
+    }
+    
+    .t-right {
+        text-align: right;
+    }
+    
+    .t-left {
+        text-align: left;
+    }
+    /* button */
+    
+    .button-primary {
+        background-color: var(--col-greyshade);
+        border: 2px var(--col-white);
+        font-size: 16px;
+        color: #101010;
+        display: inline-block;
+        border-radius: 30px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding: 12px 50px;
+        transition: all ease 0.3s;
+    }
+    
+    .button-primary:hover {
+        color: var(--col-white);
+    }
+    
+    .button-secondary {
+        background-color: var(--col-primary);
+        border: 2px var(--col-white);
+        font-size: 16px;
+        color: var(--col-white);
+        display: inline-block;
+        border-radius: 30px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding: 12px 50px;
+        transition: all ease 0.3s;
+    }
+    
+    .button-secondary:hover {
+        background-color: var(--col-theme);
+    }
+    
+    .add-to-cart-btn {
+        background-color: var(--col-primary);
+        border: 2px var(--col-white);
+        font-size: 16px;
+        color: var(--col-white);
+        display: inline-block;
+        border-radius: 30px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding: 12px 50px;
+        box-shadow: 2px 6px #9ddaf1;
+        transition: all ease 0.3s;
+    }
+    
+    .buy-now-btn {
+        background-color: var(--col-success);
+        border: 2px var(--col-white);
+        font-size: 16px;
+        color: var(--col-white);
+        display: inline-block;
+        border-radius: 30px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding: 12px 50px;
+        box-shadow: 2px 6px #65f394;
+        transition: all ease 0.3s;
+    }

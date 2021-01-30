@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <!-- Css links -->
+    <link rel="stylesheet" href="https://ckwebstudio.github.io/ecomstore.github.io/css/utils.css">
+    <link rel="stylesheet" href="https://ckwebstudio.github.io/ecomstore.github.io/css/style.css">
+    <link rel="stylesheet" href="https://ckwebstudio.github.io/ecomstore.github.io/css/media.css">
+
+    <!-- Use this link after downloading the project and remove the above css links -->
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <!-- nav bar -->
+    <div class="nav-background">
+        <nav class="container-90 grid-container-2 m-auto navbar-toggle h-nav-res">
+
+            <div class="d-flex nav-left">
+                <!-- hamburger icon -->
+                <div class="menu-section">
+                    <div class="hamburger">
+                        <div class="nav-line"></div>
+                        <div class="nav-line"></div>
+                        <div class="nav-line"></div>
+                    </div>
+                    <!-- hamburger icon -->
+                    <h3 class="logo-text py-15"> EcomStore</h3>
+                    <img class="cart-img-1" src="https://ckwebstudio.github.io/ecomstore.github.io/img/shopping-cart.svg" alt="">
+                </div>
+
+                <ul class="nav-ul py-15">
+                    <li class="mr-5 a-text"><a href="https://ckwebstudio.github.io/ecomstore.github.io/">Home</a></li>
+                    <li class="mr-5 a-text"><a href="https://ckwebstudio.github.io/ecomstore.github.io/about.html">About</a></li>
+                    <li class="mr-5 a-text"><a href="https://ckwebstudio.github.io/ecomstore.github.io/contact.html">Contact</a></li>
+                    <li class="mr-5 a-text"><a href="https://ckwebstudio.github.io/ecomstore.github.io/shop.html">Shop</a></li>
+                    <li class="mr-5 a-text"><a href="https://ckwebstudio.github.io/ecomstore.github.io/single-product.html">Product</a></li>
+                    <li class="mr-5 a-text"><a href="https://ckwebstudio.github.io/ecomstore.github.io/search.html">Search</a></li>
+                </ul>
+            </div>
+
+            <div class="d-flex-align-items-end nav-right">
+                <form class="nav-search-form py-15" action="/">
+                    <input class="search-input" type="text" placeholder="Search Here">
+                    <button class="search-btn" type="submit">submit</button>
+                </form>
+                <button class="mr-5 login-btn">Login</button>
+                <button class="mr-5 signup-btn">signup</button>
+                <img class="cart-img" src="https://ckwebstudio.github.io/ecomstore.github.io/img/shopping-cart.svg" alt="">
+            </div>
+        </nav>
+    </div>
+    <!-- navbar end -->
+
+    <div class="container grid-container-2 m-auto">
+
+
+        <div class="product-slider m-auto t-center">
+            <div class="product-slider m-auto">
+                <img class="product-slides" src="/img/model-y-bg.jpg" style="display:none">
+                <img class="product-slides" src="/img/kids.jpg">
+                <img class="product-slides" src="/img/model.jpg" style="display:none">
+            </div>
+
+            <div class="product-slider-menu m-auto t-center">
+                <div class="product-menu-items">
+                    <img class="image-box opacity" src="/img/model-y-bg.jpg" onclick="currentDiv(1)">
+                </div>
+                <div class="product-menu-items">
+                    <img class="image-box opacity" src="/img/kids.jpg" onclick="currentDiv(2)">
+                </div>
+                <div class="product-menu-items">
+                    <img class="image-box opacity" src="/img/model.jpg" onclick="currentDiv(3)">
+                </div>
+            </div>
+        </div>
+
+        <div class="product-left">
+            <h1>Designer Dress</h1>
+
+            <p><span><img src="/img/stars/5star.svg" alt=""><a href="#"> (24reviews)</a></span></p><br>
+
+            <a class="deal-btn" href="#">Deal Of the Day</a>
+
+            <div class="pricing mt-10">
+                <span class="sale-price"><p>$50 </p></span>
+                <span><p class="list-price">  $100</p><span>
+            <span><p class="saved-price">   Save $50</p></span>
+            </div>
+
+
+            <p class="color-success"><b>In Stock</b> </p>
+
+            <p class="mt-10">FREE Delivery</p>
+
+            <p class="mt-10">Sold by: <b>Ecom Store</b></p>
+
+            <p class="mt-10"> 7 Days Replacement Guaranty</p>
+
+            <p class="mt-10">Get it by <b class="color-success">Sunday</b></p>
+
+            <div class="buy-div">
+                <button class="add-to-cart-btn">Add To Cart</button>
+                <button class="buy-now-btn">Buy Now</button>
+            </div>
+
+            <h2>About the Product</h2>
+            <p class="short-desc mt-10">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum officia quis quidem ipsam commodi alias perspiciatis aliquam magnam tempore id ex consequatur veritatis quisquam repudiandae, labore distinctio. Tempora fugiat ad facere eveniet provident
+                delectus expedita voluptas animi ducimus. Pariatur voluptas voluptatibus quam ad ea tenetur, porro omnis nam similique mollitia aliquam culpa eum vero sapiente temporibus quod earum debitis doloribus dolorum ut fugit ex rerum. Nam exercitationem
+                doloremque tenetur totam? Quos veniam nemo dolor ducimus autem omnis porro minima non temporibus neque repudiandae, dignissimos possimus laboriosam ipsum.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="container m-auto">
+        <hr class="my-15">
+
+        <h2>Illo asperiores rerum velit dolore vitae laudantium obcaecati at quidem ad fugit.</h2>
+
+        <p class="mt-10">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo voluptates maiores eligendi repellat voluptate assumenda! Harum dignissimos necessitatibus, consectetur odio, earum possimus fugit porro molestias exercitationem voluptatem pariatur
+            molestiae facere odit commodi distinctio numquam id repellat autem aut neque illo? Labore sunt expedita praesentium optio dolores aspernatur maxime obcaecati dicta voluptates nobis! Omnis modi nobis ipsum, asperiores labore saepe hic consectetur
+            debitis animi suscipit quam magni corrupti. Dolorum id molestias sunt repudiandae, delectus magni dolorem, magnam maiores repellendus sequi eveniet ullam. Est minus, neque natus nam accusantium libero temporibus laborum maiores hic suscipit
+            quam nihil, perspiciatis velit! Laudantium illum suscipit eos expedita atque qui quod quasi eius, officiis earum tempore sit quam accusantium placeat, consequatur possimus cum quos nihil tempora perferendis itaque. Voluptates enim dignissimos
+            laudantium veritatis perspiciatis officiis sint dolores nobis, consectetur cumque dolorum nesciunt dolor perferendis rerum neque officia suscipit provident sed ipsa accusamus consequatur doloremque? Aperiam, commodi provident? Quia ex aut
+            in quis. Sit dolorum fugit ipsam optio adipisci, voluptatem non ea at magnam aliquid eum cupiditate esse eligendi labore architecto sunt reprehenderit illo eos ratione? Eaque ratione aliquid sit vel libero perspiciatis laboriosam, ipsum non
+            dignissimos, consequatur temporibus! Labore numquam architecto impedit! Sapiente unde fugit, voluptates earum quidem fugiat dignissimos assumenda iusto! Voluptas mollitia optio atque quae fugit adipisci laudantium est. Veritatis, qui aliquam
+            incidunt deserunt exercitationem veniam odit debitis! Laboriosam quos magnam aliquid. Ad, odit. Harum maxime possimus, quasi ab inventore neque fugit minima beatae debitis aspernatur quia cum blanditiis aperiam ullam cumque enim commodi quibusdam
+            alias iure? Nesciunt aliquid neque maxime distinctio laborum architecto enim debitis beatae? Soluta repellendus aperiam odit itaque ipsam, amet minima quas rem sint, ad cupiditate qui facere commodi pariatur ipsa necessitatibus id suscipit?
+            Sint atque consequatur ad possimus nobis, laborum ipsam, vero alias hic explicabo dicta animi, similique nulla!</p>
+    </div>
+    <div class="container m-auto">
+
+        <h3 class="color-success mt-30">Product Specifications</h3>
+
+        <table class="mt-30 t-left product-desc-table" style="width:50%">
+            <tr>
+                <th>Features</th>
+                <th>Value</th>
+            </tr>
+
+            <tr>
+                <td>Color</td>
+                <td>Yellow</td>
+
+            </tr>
+            <tr>
+                <td>Thresds Count</td>
+                <td>300</td>
+
+            </tr>
+            <tr>
+                <td>Fabric</td>
+                <td>Cotton</td>
+
+            </tr>
+
+            <tr>
+                <td>Color</td>
+                <td>Yellow</td>
+
+            </tr>
+            <tr>
+                <td>Thresds Count</td>
+                <td>300</td>
+
+            </tr>
+            <tr>
+                <td>Fabric</td>
+                <td>Cotton</td>
+
+            </tr>
+        </table>
+    </div>
+
+    <div class="container grid-container-2 mt-30 m-auto">
+
+        <div class="cat-card">
+            <img src="/img/model.jpg" alt="">
+
+            <div class="cat-card-content">
+                <h2 class="color-primary"> Product Image</h2>
+
+            </div>
+        </div>
+
+        <div class="cat-card ">
+            <img src="img/model-y-bg.jpg" alt="">
+
+            <div class="cat-card-content">
+                <h2 class="color-success"> Product Image</h2>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="container m-auto">
+        <h3>More About the Product</h3>
+        <p class="mt-30">Lorem ipsum dolor sit amet consectetur adipisicing elit. A enim fuga cum debitis est itaque voluptate delectus iusto ducimus deserunt voluptatem similique aspernatur modi quaerat eius tenetur adipisci, minus voluptas excepturi praesentium illum
+            accusantium dolorem beatae ut. Ea voluptatum illo voluptate facilis! Aspernatur labore necessitatibus dolores pariatur, reiciendis esse consequuntur ullam quod, ut quas vel voluptatibus consequatur vitae soluta cupiditate dolorum dolorem temporibus
+            minima mollitia laudantium quasi sit? Reiciendis nisi eaque vel beatae, voluptatum iusto qui amet quidem autem rem voluptate aliquam ullam excepturi eligendi soluta. Aperiam ipsam in vero velit veniam, saepe porro? Exercitationem, voluptatibus.
+            Soluta consequuntur beatae voluptas at recusandae veniam similique officiis sint ea inventore sed sit molestias, libero ratione. Adipisci animi dolorem reiciendis amet voluptatum odit? Autem dolor repellendus dolore cum quasi, facere quae
+            deserunt mollitia reiciendis tempora in neque maiores iure tenetur. Earum reiciendis, nihil reprehenderit a esse optio repellendus odio modi molestias provident libero exercitationem sunt enim iusto dicta culpa debitis voluptas, neque fugit
+            quod velit pariatur illo assumenda. Ex quibusdam ducimus tenetur mollitia ullam eos sed deserunt nesciunt maxime, deleniti voluptate dolore. Ratione cupiditate odit architecto veritatis in dolorum, temporibus praesentium laboriosam fugit laudantium
+            eius exercitationem distinctio provident suscipit eum itaque, obcaecati, eaque nulla? Nemo impedit nostrum, ducimus, itaque doloribus error, expedita excepturi maxime saepe inventore officiis minus illo distinctio! Nesciunt et porro, sit culpa
+            quam, nam pariatur ipsum impedit veritatis rem illo reiciendis laudantium dicta asperiores ab a deserunt odio officiis fuga, commodi itaque optio quasi! A exercitationem quo, veritatis, consequuntur quia obcaecati et fugit aut dolore iusto
+            quisquam praesentium. Quidem in numquam corrupti. Molestias perspiciatis inventore veniam. Totam, delectus laboriosam, enim ab mollitia pariatur neque quaerat dolore atque in dolores sint exercitationem nostrum consequuntur eos obcaecati accusamus
+            dignissimos! Reprehenderit, delectus consectetur, recusandae eos nisi blanditiis velit vero aliquam molestias distinctio suscipit?</p>
+
+
+        <p class="mt-30">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos delectus quod ipsa voluptas quis unde excepturi sequi temporibus, explicabo exercitationem non illum voluptatibus at provident odio ipsum repellat pariatur a nisi! Harum, minus! Minima
+            consectetur soluta impedit, facilis aut odit ab. Nobis obcaecati atque deserunt. Laborum voluptas similique blanditiis inventore et aperiam dolorum, tempora esse sequi voluptates suscipit, adipisci quis sunt dolore sint iusto illo quas consequuntur
+            ad dolores quibusdam cum, consectetur autem iure? Esse, molestias cum nobis veniam deleniti provident aut officiis dignissimos distinctio eos, voluptatibus aperiam possimus ab eius enim ratione quaerat nemo excepturi dolorum totam vel reprehenderit
+            nostrum? Asperiores impedit inventore a recusandae eum quod placeat nulla enim iure. Enim rerum omnis eum in. Iure enim non facere autem expedita, eaque aperiam ducimus ab nulla explicabo a amet? Qui ex quos tempore nostrum, laboriosam sed
+            dolores unde. Neque quod ea magni est dicta quibusdam fugit laborum natus rem maxime, consequatur asperiores incidunt ad commodi pariatur veritatis quisquam nobis repellat ipsam quasi iusto aliquid vel quos dolor? Explicabo perferendis accusantium
+            eum, cupiditate voluptatibus hic eaque saepe quae ex recusandae neque et id repellendus placeat sunt ducimus repudiandae ratione optio nisi. Quaerat ipsum perspiciatis at vel ducimus enim dicta molestias consequuntur tenetur excepturi sapiente
+            eos aspernatur molestiae dolorem nesciunt ullam, vero saepe commodi id. Eos eius maiores ullam est quod optio cupiditate aliquam inventore. Animi maxime ipsum ut mollitia minima, dignissimos, voluptas placeat earum repellat quisquam officia
+            cum vel quibusdam quod vitae quidem nulla doloribus distinctio rem voluptatem! Voluptatibus, ratione! Ducimus ipsum suscipit officia et facilis optio doloremque consequuntur doloribus eaque porro. Aut necessitatibus sunt exercitationem sint
+            quo ut maxime, aperiam qui in, mollitia alias at quasi soluta facere veniam et numquam. Ab, quia qui magnam odit asperiores veritatis laborum dolorum inventore nostrum aut tempora rem quas, illum, dolores nemo corporis iste. Fugiat, voluptatem
+            perspiciatis iste ipsam voluptatum minima molestias quod inventore quo! Officiis reiciendis consequuntur voluptatem harum sequi rem, natus, eos quo, veritatis dignissimos quasi recusandae dolores vel accusamus! Cumque consequatur aspernatur
+            esse, voluptates veniam, nesciunt nisi, velit nobis in ratione mollitia. Maiores animi vel debitis eos, quos laborum cupiditate repudiandae minima qui. Cupiditate, sapiente nesciunt. Recusandae dolores alias excepturi cum quasi! Ullam cupiditate
+            blanditiis sunt accusamus mollitia facere illum dignissimos quibusdam deserunt aperiam aspernatur adipisci, nemo commodi, quasi voluptatum laboriosam totam porro? Dolorum enim officia quod. Perferendis sed ipsam fugiat, rerum sint deleniti
+            voluptatibus. Velit, provident possimus minus, atque cumque quidem ullam cupiditate, neque dolore porro impedit quibusdam id? Harum ab labore voluptatibus omnis obcaecati? Exercitationem quae culpa inventore consequatur placeat, in totam,
+            nihil provident itaque optio ratione quisquam neque expedita esse autem animi quam rem ipsam repellat at blanditiis? Delectus voluptatem eius, rerum aperiam distinctio numquam laborum ut ipsum magni. Dicta laudantium temporibus, aperiam voluptatem
+            quidem assumenda? Pariatur, nemo exercitationem. Qui sapiente et vitae enim hic ex incidunt atque dolores ratione, eaque adipisci tenetur iste temporibus illum excepturi, magni molestiae earum voluptatum cumque asperiores. Temporibus, alias
+            officiis. Odio doloribus incidunt dicta aliquam voluptatum nesciunt error animi, in nihil, consectetur voluptate quaerat! Pariatur vitae aspernatur, alias delectus labore veniam sequi placeat. Eius pariatur harum dolore deserunt ad officiis
+            cum consequatur unde eligendi dolores? Velit, facilis aliquam veniam amet sed impedit totam! Consequatur maiores soluta omnis, doloremque quia in libero magni molestias iure commodi odit amet distinctio laudantium aut assumenda laborum? Ducimus
+            adipisci voluptas similique temporibus nam tempore dignissimos nulla, quis officia commodi. Quisquam ullam aspernatur magnam sapiente in inventore quo laborum quaerat debitis eaque adipisci, earum hic? Odit, optio nihil repudiandae est obcaecati
+            nemo earum quae perspiciatis eos, voluptas excepturi aliquam quod harum ducimus, delectus deserunt repellat?
+        </p>
+    </div>
+
+    <div class="container m-auto my-30 ">
+        <!-- Featured Products Section  -->
+        <h2 class="color-primary  mb-30">Suggested Products for You</h2>
+        <div class="container-fluid grid-container-4">
+            <!-- card -->
+            <div class="card t-center">
+                <img src="https://ckwebstudio.github.io/ecomstore.github.io/img/product-images/bag-2.jpg" alt="" class="card-img">
+                <p class="card-category mt-10">
+
+                    Accessories
+                </p>
+                <h3 class="card-header mt-10">
+                    Bag
+                </h3>
+                <p class="pricing mt-10">
+                    $20.00
+                </p>
+                <p class="card-btn"><a href="#">Buy Now</a></p>
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="card t-center">
+                <img src="https://ckwebstudio.github.io/ecomstore.github.io/img/product-images/headphone.jpg" alt="" class="card-img">
+                <p class="card-category mt-10">
+
+                    Accessories
+                </p>
+                <h3 class="card-header mt-10">
+                    Headphone
+                </h3>
+                <p class="pricing mt-10">
+                    $99.00
+                </p>
+                <p class="card-btn"><a href="#">Buy Now</a></p>
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="card t-center">
+                <img src="https://ckwebstudio.github.io/ecomstore.github.io/img/product-images/perfume.jpg" alt="" class="card-img">
+                <p class="card-category mt-10">
+
+                    Accessories
+                </p>
+                <h3 class="card-header mt-10">
+                    Perfume
+                </h3>
+                <p class="pricing mt-10">
+                    $70.00
+                </p>
+                <p class="card-btn"><a href="#">Buy Now</a></p>
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="card t-center">
+                <img src="https://ckwebstudio.github.io/ecomstore.github.io/img/product-images/phone.jpg" alt="" class="card-img">
+                <p class="card-category mt-10">
+
+                    Electronics
+                </p>
+                <h3 class="card-header mt-10">
+                    Phone
+                </h3>
+                <p class="pricing mt-10">
+                    $550.00
+                </p>
+                <p class="card-btn"><a href="#">Buy Now</a></p>
+            </div>
+            <!-- card -->
+
+        </div>
+        <!-- Featured Products Section  -->
+    </div>
+
+    <!-- mega footer -->
+    <div class="container-fluid background-dark">
+        <div class="container grid-container-4 m-auto t-left background-dark">
+
+            <div class="footer-block">
+                <h3 class="footer-logo">EcomStore</h3>
+
+                <p class="color-white">Logo Will Be Here</p>
+            </div>
+            <div class="footer-block">
+                <h3>Pages</h3>
+                <ul>
+                    <li>
+                        <a href="https://ckwebstudio.github.io/ecomstore.github.io/"> Home</a></li>
+                    <li>
+                        <a href="https://ckwebstudio.github.io/ecomstore.github.io/">About</a></li>
+                    <li>
+                        <a href="https://ckwebstudio.github.io/ecomstore.github.io/shop.html">Shop</a></li>
+                    <li>
+                        <a href="https://ckwebstudio.github.io/ecomstore.github.io/contact.html">Contact</a></li>
+                    <li>
+                        <a href="https://ckwebstudio.github.io/ecomstore.github.io/">Privacy</a></li>
+                </ul>
+            </div>
+            <div class="footer-block">
+                <h3>Categories</h3>
+                <ul>
+                    <li>
+                        <a href="#">Electronics</a></li>
+                    <li>
+                        <a href="#">Fashion</a></li>
+                    <li>
+                        <a href="#">Fashion</a></li>
+                    <li>
+                        <a href="#">Footwear</a></li>
+                    <li>
+                        <a href="#">Dress</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-block">
+                <h3>Support</h3>
+                <ul>
+                    <li>Plot No.19,</li>
+                    <li>Address</li>
+                    <li>admin@ckwebstudio.com</li>
+                    <li>Ph: +12 234 557 3456</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- mega footer end -->
+    <footer class="footer container-fluid m-auto t-center">
+        <p class="copywrite">
+            Copyright ©2021 All rights reserved | This templet is Made by<a href="https://ckwebstudio.com" target="_blank">CKWEBSTUDIO.COM.</a>
+        </p>
+
+    </footer>
+    <script src="https://ckwebstudio.github.io/ecomstore.github.io/js/index.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/index.js"></script>
+</body>
+
+</html>
